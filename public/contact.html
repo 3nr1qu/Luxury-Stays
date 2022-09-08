@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./../css/contact.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="icon" href="./../image/iconsss.png">
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+    
+  </head>
+
+  <body>
+      <section class="head">
+          <div class="container flex1">
+            <div class="scoial">
+              <a>Welcome To Luxury Stays</a>
+            </div>
+            <div class="logo">
+              <a href="./../public/index.html"><img src="./../image/logos.png" alt=""></a>
+            </div>
+            <div class="address">
+              <i class="fas fa-solid fa-phone"></i>
+              <span>09077629355</span>
+              <i class="fas fa-solid fa-envelope"></i>
+              <span>luxury.stay@gamil.com</span>
+            </div>
+          </div>
+        </section>
+      
+  
+        <header class="header">
+            <div class="container">
+                <nav class="navbar flex1">
+                    <div class="sticky_logo logo">
+                        <a href="./../public/index.html"><img src="./../image/logoss.png" alt=""></a>
+                    </div>
+    
+                    <ul class="nav-menu">
+                        <li> <a href="./../public/index.html">Home</a> </li>
+    
+                        <div class="dropdown">
+                            <li onclick="myFunction()" class="dropbtn">BRANCHES</li>
+                            <div id="myDropdown" class="dropdown-content">
+                                <a href="./../public/Luzon.html">Luzon</a>
+                                <a href="./../public/Visayas.html">Visayas</a>
+                                <a href="./../public/Mindanao.html">Mindanao</a>
+                            </div>
+                        </div>
+                        <li> <a href="./../public/rooms.html">Rooms</a> </li>
+    
+                        <li> <a href="./../public/blogs.html">Blogs</a> </li>
+                        <li> <a href="./../public/about.html">About</a> </li>
+                        <li> <a href="./../public/contact.html">Contact Us</a> </li>
+                    </ul>
+                    <ul>
+    
+                        <button> <a href="./../public/book online.html">
+                                <span style="color:white">Book Online</span></a></button>
+                        <a href="./../public/admin.html">
+                            <i class="fas fa-solid fa-user" style="color:#CC8C18 ; margin-left: 20px; margin-right: 5px"></i><span
+                                style="color:white ; font-size: 13px">Admin</span></a>
+                    </ul>
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+    
+    
+                </nav>
+            </div>
+        </header>
+   
+    <section id="contact" >
+
+      <h1 class="section-header">Contact</h1>
+    
+      <div class="contact-wrapper">
+    
+        <!-- Left contact page -->
+    
+        <form id="contact-form" class="form-horizontal" role="form">
+    
+          <div class="form-group">
+            <div class="col-12">
+              <input type="text" class="form-control1" id="name" placeholder="Name:" name="name" value="" required>
+            </div>
+          </div>
+    
+          <div class="form-group">
+            <div class="col-12">
+              <input type="email" class="form-control1" id="email" placeholder="Email: example@gmail.com" name="email" value="" required>
+            </div>
+          </div>
+    
+          <textarea class="form-control" rows="10" placeholder="Your Message" name="message" required></textarea>
+    
+          <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+            <div class="alt-send-button" style="color:#24416B">
+              <i class="fa fa-paper-plane" ></i><span class="send-text">SEND</span>
+            </div>
+    
+          </button>
+    
+        </form>
+    
+        <!-- Left contact page -->
+    
+        <div class="direct-contact-container">
+    
+          <ul class="contact-list">
+            <li class="list-item"><i class="fa fa-map-marker fa-1x"><span class="contact-text place">Manila | Philippines</span></i></li>
+    
+            <li class="list-item"><i class="fa fa-phone fa-1x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">(212) 555-2368</a></span></i></li>
+    
+            <li class="list-item"><i class="fa fa-envelope fa-1x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">luxurystay@gmail.com</a></span></i></li>
+    
+          </ul>
+    
+          <hr>
+          <ul class="social-media-list">
+            <li><a href="#" target="_blank" class="contact-icon">
+                <i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="#" target="_blank" class="contact-icon">
+                <i class="fab fa-twitter" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="#" target="_blank" class="contact-icon">
+                <i class="fab fa-youtube" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="#"  >
+                <i class="fab fa-instagram" ></i></a>
+            </li>
+          </ul>
+          <hr>
+    
+          <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
+    
+        </div>
+    
+      </div>
+    
+    </section>
+    
+    <script src="./../js/contact.js"></script>
+  </body>
+  <script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+    </script>
+</html>
